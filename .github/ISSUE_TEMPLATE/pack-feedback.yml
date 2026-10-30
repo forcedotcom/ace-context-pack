@@ -1,0 +1,37 @@
+name: Problem with a pack
+description: Something in a context pack is wrong, unclear or out of date.
+labels: [pack-feedback]
+body:
+  - type: input
+    id: pack
+    attributes:
+      label: Pack
+      description: Folder of the pack
+      placeholder: packs/<industry>/<pack>
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's the problem?
+      options:
+        - Incorrect or out-of-date information
+        - Unclear or hard to use
+        - Missing information
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Quote the part of the pack and describe what should change.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This issue contains no customer data, org IDs, credentials or other private details.
+          required: true

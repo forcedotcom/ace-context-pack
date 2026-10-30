@@ -1,0 +1,25 @@
+name: Request a new pack
+description: Ask for a context pack for a use case we don't cover yet.
+labels: [pack-request]
+body:
+  - type: input
+    id: industry
+    attributes:
+      label: Industry
+      placeholder: e.g. retail, travel, manufacturing
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: What business questions should the pack help answer?
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This issue contains no customer data, org IDs, credentials or other private details.
+          required: true
