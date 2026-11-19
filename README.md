@@ -17,7 +17,9 @@ Review each pack and adapt it to your business before you use it.
 
 | Pack | Industry | Description | Status |
 |---|---|---|---|
-| _No packs published yet._ | | | |
+| [benefits-claims-status](packs/benefits/claims-status/) | Benefits | An employee's own health and dental claims and their recorded status | published |
+| [benefits-coverage-explainer](packs/benefits/coverage-explainer/) | Benefits | Current health and dental enrollments, covered family members and monthly cost | published |
+| [benefits-life-event](packs/benefits/life-event/) | Benefits | How a life event such as marriage affects an employee's health and dental benefits | published |
 
 <!-- Add one row per pack, linked to its folder, e.g.
 | [retail-orders](packs/retail/orders/) | Retail | Order lookup, status and returns | published |

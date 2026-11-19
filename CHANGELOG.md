@@ -4,4 +4,5 @@ Notable changes to the packs in this repository. `main` always holds the latest 
 
 ## Unreleased
 
+- Added Benefits packs: `benefits-claims-status`, `benefits-coverage-explainer`, `benefits-life-event`.
 - Initial repository structure, pack template and validation checks.
